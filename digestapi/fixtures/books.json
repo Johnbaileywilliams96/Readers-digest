@@ -1,0 +1,68 @@
+[
+    {
+        "model": "digestapi.book",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "title": "Johns book",
+            "author": "John",
+            "isbn_number": 5,
+            "categories": [1, 2]
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "title": "The Shadow's Edge",
+            "author": "Elena Blackwood",
+            "isbn_number": 9781234567890,
+            "categories": [2, 3]
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "title": "Quantum Paradox",
+            "author": "Marcus Chen",
+            "isbn_number": 9780987654321,
+            "categories": [1, 4]
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "title": "Whispers in the Mist",
+            "author": "Sarah Johnson",
+            "isbn_number": 9785432109876,
+            "categories": [2, 5]
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 5,
+        "fields": {
+            "user": 3,
+            "title": "Code of the Ancients",
+            "author": "Richard Torres",
+            "isbn_number": 9786789054321,
+            "categories": [1, 6]
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 6,
+        "fields": {
+            "user": 2,
+            "title": "Beyond the Horizon",
+            "author": "Amelia Clarke",
+            "isbn_number": 9784567890123,
+            "categories": [3, 4]
+        }
+    }
+]
